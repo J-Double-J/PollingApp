@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Manrope";
+    src: url(assets/fonts/Manrope-VariableFont_wght.ttf);
+}
+
+:root {
+    --french-gray: #C4C5D0;
+    --space-cadet: #22223bff;
+    --ultra-violet: #4a4e69ff;
+}
+
+
+body {
+    font-family: "Manrope", sans-serif;
+    background: var(--ultra-violet);
+    color: var(--space-cadet);
+}
+
