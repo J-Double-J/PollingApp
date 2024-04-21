@@ -7,12 +7,14 @@
     --french-gray: #C4C5D0;
     --space-cadet: #22223bff;
     --ultra-violet: #4a4e69ff;
+
+    --almond: #f3e1cdff;
+    --tropical-indigo: #a997df;
+    --tropical-text: #4F33A3
 }
 
 
 body {
     font-family: "Manrope", sans-serif;
-    background: var(--ultra-violet);
-    color: var(--space-cadet);
 }
 

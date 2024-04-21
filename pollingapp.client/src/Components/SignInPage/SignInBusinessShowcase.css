@@ -1,0 +1,32 @@
+aside {
+    background-color: var(--almond);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+}
+
+img {
+    height: 60%;
+    width: 60%;
+    align-self: center;
+    margin-top: 5em;
+    margin-bottom: -3em;
+}
+
+aside h1, aside p {
+    text-align: center;
+}
+
+aside h1 {
+    margin-bottom: 2em;
+}
+
+aside div {
+    margin-bottom: 2em;
+}
+
+strong {
+    color: var(--tropical-text)
+}

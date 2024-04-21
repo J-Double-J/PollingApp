@@ -38,9 +38,9 @@ function SignIn() {
 
     return (
         <main>
+            <h1>Data Pie Dreams</h1>
+            <p>Welcome back to <em>Easy Data</em></p>
             <div className="form-container">
-                <h1>Sign In</h1>
-                <p>Don&apos;t have an account? <a href="google.com">Sign up!</a></p>
                 <form>
                     <ul role="list">
                         <li>
@@ -50,15 +50,17 @@ function SignIn() {
                         </li>
                         <li>
                             <label htmlFor="password">Password</label>
-                            <input id="password" name="password" value={signInPass} onChange={changeSignInPass} />
+                            <input type="password" id="password" name="password" value={signInPass} onChange={changeSignInPass} />
                             <a href="https://google.com">Forgot Password?</a>
                         </li>
                     </ul>
 
                     <button type="submit" onClick={sendSignInRequest}>Log In</button>
+                    <p>New Baker? <a href="google.com">Create Account</a></p>
                 </form>
             </div>
-        </main> 
+        </main>
+        
   );
 }
 
