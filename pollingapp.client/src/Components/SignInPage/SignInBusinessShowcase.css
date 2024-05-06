@@ -1,3 +1,9 @@
+@media (max-width: 920px) {
+    .showcase {
+        display: none;
+    }
+}
+
 aside {
     background-color: var(--almond);
     display: flex;
@@ -13,6 +19,7 @@ img {
     align-self: center;
     margin-top: 5em;
     margin-bottom: -3em;
+    object-fit: cover;
 }
 
 aside h1, aside p {

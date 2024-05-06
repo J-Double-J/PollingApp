@@ -10,7 +10,7 @@ main {
 
 .form-container {
     height: min-content;
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: column;
 }
@@ -19,7 +19,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 50vh
+    height: 60vh
 }
 
 form input {
@@ -27,6 +27,7 @@ form input {
     border-bottom: 1px solid lightgray;
     margin: 0.3em 0em;
     line-height: normal;
+
 }
 
 ul {
@@ -36,6 +37,7 @@ ul {
 ul li {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 label {
@@ -79,20 +81,34 @@ h1 {
 }
 
 button {
+    position: relative;
     margin: 0.5em 0em 0.1em 0em;
-    width: 60%;
-    height: 2em;
+    width: 70%;
+    height: 2.3em;
     align-self: center;
     background-color: var(--tropical-text);
     border: none;
     color:white;
     border-radius: 50px;
+    transition: background-color 0.15s;
 }
 
 button:hover {
     cursor: pointer;
+    background-color: #886ED7;
 }
 
 em {
     color: var(--tropical-text);
+}
+
+@media (max-width: 600px) {
+    form p a {
+        display: block;
+        margin-top: 5px;
+    }
+    
+    form p {
+        text-align: center;
+    }
 }

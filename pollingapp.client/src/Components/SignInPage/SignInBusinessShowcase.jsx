@@ -4,7 +4,7 @@ import logo from '..\\..\\assets\\pie-logo-transparent.png';
 
 function SignInBusinessShowcase() {
   return (
-      <aside>
+      <aside className = "showcase">
           <img src={logo } alt = "Data Pie Dreams logo: a pie" />
           <h1>Data gathering can be <strong>easy as pie!</strong></h1>
           <div>

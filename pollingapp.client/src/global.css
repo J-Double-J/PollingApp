@@ -10,11 +10,9 @@
 
     --almond: #f3e1cdff;
     --tropical-indigo: #a997df;
-    --tropical-text: #4F33A3
+    --tropical-text: #4F33A3;
 }
-
 
 body {
     font-family: "Manrope", sans-serif;
 }
-
